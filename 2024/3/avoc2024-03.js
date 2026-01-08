@@ -1,0 +1,1 @@
+[...data.matchAll(/mul\((\d+),(\d+)\)/g)].map(e => parseInt(e[1]) * parseInt(e[2])).reduce((a, b) => a + b, 0) 
